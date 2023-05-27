@@ -33,7 +33,7 @@ main{
 
 .MensajeEncriptado{
     background: white;
-    background-image: url(../Imagenes/Muñeco.png);
+    background-image: url(./Imagenes/Muñeco.png);
     background-position: 20px;
     background-repeat: no-repeat;
     border: none;
@@ -108,7 +108,7 @@ p{
     margin-left: 108px;
     margin-top: 695px;
     position: absolute;
-    width: 336px;  i
+    width: 336px;  
 }
 
 
