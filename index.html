@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html Lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <title> Encriptador</title>
+        <link rel="stylesheet" href="../css/Encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <img class="LogoAlura" src="../Imagenes/LogoAlura.png" alt="logo de Alura">
+
+    </header>   
+
+    <main>
+
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6> 	
+                        &#9888; Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="BotonEncriptar" onclick="BotonEncriptar()"> Encriptar</button>
+                    <button class="BotonDesencriptar" onclick="BotonDesencriptar()"> Desencriptar</button>
+                </div>
+        </section>
+
+        <section>
+            <textarea class="MensajeEncriptado" cols="20" rows="10"></textarea>
+                <div class="textos">
+                <p class="p1"> Ningún mensaje fue encontrado</p>  
+                <p class="p2"> Ingresa el texto que desees encriptar o desencriptar</p> 
+                </div>
+                <div>
+                    <button class="Copiar" style="display: none;"> Copiar</button>
+                </div>
+        </section>
+       
+    </main>
+
+    <footer>
+            <h6 class="rodapie"> Realizado por Andrea Avendaño</h6>
+    </footer>
+<script src="../JavaScript/Encriptador.js"></script>
+</body>
+</html>
